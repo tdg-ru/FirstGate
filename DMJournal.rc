@@ -1,0 +1,752 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 200, 274
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About DMJournal"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         103,IDC_SPLASH,"Static",SS_BITMAP,0,0,200,274
+    DEFPUSHBUTTON   "OK",IDOK,77,243,50,14,WS_GROUP
+END
+
+IDR_MAINFRAME DIALOG DISCARDABLE  0, 0, 189, 16
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",TCS_BUTTONS | 
+                    TCS_MULTILINE | 0x4,6,2,181,13
+END
+
+IDD_DESCRIPTION DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DESCRIPTION,0,0,126,94,ES_MULTILINE | ES_WANTRETURN | 
+                    WS_VSCROLL
+END
+
+IDD_DREAM DIALOG DISCARDABLE  0, 0, 186, 41
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_TYPE,46,14,137,60,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DATE,"SysDateTimePick32",
+                    WS_TABSTOP,46,27,138,14
+    EDITTEXT        IDC_TITLE,46,0,138,14,ES_AUTOHSCROLL
+    LTEXT           "Заголовок",IDC_CAPT,0,2,37,8
+    LTEXT           "Дата",IDC_STATIC,2,30,19,8
+    LTEXT           "Тип",IDC_STATIC,2,16,16,8
+END
+
+IDD_PLACELIST DIALOG DISCARDABLE  0, 0, 228, 95
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | LVS_OWNERDATA | 
+                    WS_BORDER | WS_TABSTOP,0,0,126,80
+    PUSHBUTTON      "Добавить",IDC_ADD,92,81,16,13,BS_ICON
+    PUSHBUTTON      "Удалить",IDC_DELETE,110,81,16,13,BS_ICON
+    COMBOBOX        IDC_GLOBALLIST,0,82,73,65,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | CBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Новый...",IDC_NEW,74,81,16,13,BS_ICON
+END
+
+IDD_PLACEEDIT DIALOG DISCARDABLE  0, 0, 186, 40
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Название:",IDC_TITLETEXT,1,7,37,8
+    EDITTEXT        IDC_TITLE,39,4,40,14,ES_AUTOHSCROLL
+    CONTROL         "Color",IDC_COLOR,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,38,21,41,14
+    LTEXT           "Цвет:",IDC_STATIC,2,24,20,8
+END
+
+IDD_LAYERBAR DIALOG DISCARDABLE  0, 0, 127, 17
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_LIST,8,1,117,54,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_PLACELIST2 DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | LVS_OWNERDATA | WS_BORDER | 
+                    WS_TABSTOP,7,7,172,81
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME, DIALOG
+    BEGIN
+        RIGHTMARGIN, 186
+    END
+
+    IDD_DESCRIPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DREAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_PLACELIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_PLACEEDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 33
+    END
+
+    IDD_LAYERBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_PLACELIST2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DREAM DLGINIT
+BEGIN
+    IDC_TYPE, 0x403, 15, 0
+0xf0e1, 0xe4e5, 0xe2ee, 0xffe0, 0xef20, 0xf2e5, 0xffeb, "\000" 
+    IDC_TYPE, 0x403, 16, 0
+0x3031, 0x2530, 0xff2d, 0xe120, 0xebee, 0xeef2, 0xede2, 0x00ff, 
+    IDC_TYPE, 0x403, 26, 0
+0xeef1, 0x20ed, 0x20f1, 0xebfd, 0xece5, 0xede5, 0xe0f2, 0xe8ec, 0xe420, 
+0xe9e5, 0xf2f1, 0xe8e2, 0x00ff, 
+    IDC_TYPE, 0x403, 22, 0
+0xf0ef, 0xe7ee, 0xe0f0, 0xedf7, 0xe5ee, 0xf120, 0xeeed, 0xe8e2, 0xe5e4, 
+0xe8ed, 0x00e5, 
+    IDC_TYPE, 0x403, 3, 0
+0xd1ce, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_DMLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "..."
+    BEGIN
+        MENUITEM "Показать...",                 IDM_DVIEW
+        MENUITEM "Новый...",                    IDM_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Удалить сон",                 IDM_DELETE
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Журнал"
+    BEGIN
+        MENUITEM "&Новый\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "&Открыть...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "&Сохранить\tCtrl+S",          ID_FILE_SAVE
+        MENUITEM "Сохранить как...",            ID_FILE_SAVE_AS
+        POPUP "Экспорт"
+        BEGIN
+            MENUITEM "в XML...",                    IDM_SAVEXML
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Выход",                       ID_APP_EXIT
+    END
+    POPUP "Сон"
+    BEGIN
+        MENUITEM "Новый...\t<Enter>",           IDM_NEW
+        MENUITEM "Показать...",                 IDM_DVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Удалить",                     IDM_DELETE
+    END
+    POPUP "Карта"
+    BEGIN
+        MENUITEM "Приблизить\t+",               IDM_ZOOMIN
+        MENUITEM "Отодвинуть\t-",               IDM_ZOOMOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Новая зона...\tZ",            IDM_NEWZONE
+        MENUITEM "Режим редактирования зон",    IDM_ZONEEDITR
+        MENUITEM SEPARATOR
+        MENUITEM "Создать новый шар...\tB",     IDM_NEWPLACE
+    END
+    POPUP "&Вид"
+    BEGIN
+        POPUP "Панели инструментов"
+        BEGIN
+            MENUITEM "Журнал",                      ID_VIEW_TOOLBAR
+            MENUITEM "Сны",                         IDW_DREAMBAR
+            MENUITEM "Карта",                       IDW_MAPBAR
+            MENUITEM "Слои",                        IDW_LAYERBAR
+            MENUITEM "Переключатель видов",         IDW_DIALOGBAR
+        END
+        MENUITEM "Строка состояния",            ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Крупные значки",              IDM_BIGICONS
+        MENUITEM "Показывать сетку\tG",         IDM_GRIDONOFF, CHECKED
+    END
+    POPUP "Помощь"
+    BEGIN
+        MENUITEM "О программе...",              ID_APP_ABOUT
+    END
+END
+
+IDR_MAP MENU DISCARDABLE 
+BEGIN
+    POPUP "..."
+    BEGIN
+        MENUITEM "Показать/изменить...",        IDM_VIEWPLACE
+        MENUITEM "Переместить",                 IDM_MOVEPLACE
+        MENUITEM "Удалить с карты",             IDM_DELETEPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "Назначить зону... ",          IDM_SETZONE
+        MENUITEM "Новая зона...",               IDM_NEWZONE
+        MENUITEM "Убрать зону...",              IDM_DELZONE
+        MENUITEM SEPARATOR
+        MENUITEM "Режим редактирования зон",    IDM_ZONEEDITR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_DREAMTOOLBAR        BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_MAPTOOLBAR          BITMAP  DISCARDABLE     "res\\maptoolb.bmp"
+IDR_DREAMBAR            BITMAP  DISCARDABLE     "res\\dreamtb.bmp"
+IDB_DREAMBAR256D        BITMAP  DISCARDABLE     "res\\dreamtb256d.bmp"
+IDI_ACTION              BITMAP  DISCARDABLE     "res\\idi_acti.bmp"
+IDR_DREAMBAR_SM         BITMAP  DISCARDABLE     "res\\dreambar.bmp"
+IDB_DREAMBARD_SM        BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDR_MAINFRAME_SM        BITMAP  MOVEABLE PURE   "res\\mainfram.bmp"
+IDR_MAPTOOLBAR_SM       BITMAP  DISCARDABLE     "res\\mapbarsm.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "Splsh16.bmp"
+IDB_DREAMBAR256         BITMAP  DISCARDABLE     "res\\dreamtb256.bmp"
+IDB_DREAMBAR256SM       BITMAP  DISCARDABLE     "res\\dreambarsm.bmp"
+IDB_MAPTOOLBAR256SM     BITMAP  DISCARDABLE     "res\\mapbarsm256.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_DREAMTOOLBAR TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_BUTTONSAVE
+    BUTTON      ID_BUTTONCANCEL
+    SEPARATOR
+    BUTTON      ID_BUTTONNEW
+    SEPARATOR
+    BUTTON      ID_BUTTONDELETE
+    SEPARATOR
+    BUTTON      ID_BUTTONFIRST
+    BUTTON      ID_BUTTONPREV
+    BUTTON      ID_BUTTONNEXT
+    BUTTON      ID_BUTTONLAST
+END
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAPTOOLBAR TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      IDM_ZOOMIN
+    BUTTON      IDM_ZOOMOUT
+    BUTTON      IDM_GRIDONOFF
+    SEPARATOR
+    BUTTON      IDM_NEWZONE
+    BUTTON      IDM_ZONEEDITR
+    SEPARATOR
+    BUTTON      IDM_NEWPLACE
+END
+
+IDR_DREAMBAR TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      IDM_NEW
+    BUTTON      IDM_DELETE
+END
+
+IDR_DREAMBAR_SM TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      IDM_NEW
+    BUTTON      IDM_DELETE
+END
+
+IDR_MAINFRAME_SM TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAPTOOLBAR_SM TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      IDM_ZOOMIN
+    BUTTON      IDM_ZOOMOUT
+    BUTTON      IDM_GRIDONOFF
+    SEPARATOR
+    BUTTON      IDM_NEWZONE
+    BUTTON      IDM_ZONEEDITR
+    SEPARATOR
+    BUTTON      IDM_NEWPLACE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ADD                 ICON    DISCARDABLE     "res\\Max\\addball.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XML
+//
+
+IDR_DEFAULTFILE         XML     DISCARDABLE     "res\\default.dm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Первые врата\nDreams\nFG\nФайлы Первых Врат (*.fg)\n.fg\nFirstGate.FG\nFirstGateFG"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "FirstGate"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Создать новый журнал сновидений\nНовый"
+    ID_FILE_OPEN            "Открыть журнал сновидений\nОткрыть"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Сохранить журнал сновидений\nСохранить"
+    ID_FILE_SAVE_AS         "Сохранить журнал пд новым именем\nСохранить как"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "О программе\nО программе"
+    ID_APP_EXIT             "Закончить работу с программой\nВыход"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Открыть этот журнал"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Показать/спрятать панель инструментов\nПанель инструментов"
+    ID_VIEW_STATUS_BAR      "Показать/спрятать панель состояния\nПанель состояния"
+    IDW_DREAMBAR            "Показать/спрятать панель управления списком снов\nПанель снов"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    IDS_ERROR0              "Ошибка"
+    IDS_ERROR1              "Невозможно сохранить изменения"
+    IDS_QUESTION1           "Запомнить изменения?"
+    IDS_DESCRIPTION         "Описание"
+    IDS_DATE                "Дата"
+    IDS_TITLE               "Заголовок"
+    IDS_DREAMEDIT           "Редактирование сна"
+    IDS_COMMENT             "Комментарии"
+    IDS_DREAM               "Сон"
+    IDS_QUESTION2           "Вы уверены?"
+    IDS_QUESTION3           "Удалить?"
+    IDS_PLACES              "Шары восприятия"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PLACE               "Шар восприятия"
+    IDS_PLACEEDIT           "Редактирование шара восприятия"
+    IDS_DREAMJOURNAL        "Дневник сновидений"
+    IDS_DREAMMAP            "Карта сновиденного мира"
+    IDS_COMPRESSEDFILE      "Compressed Dream Map (*.zdm)"
+    IDS_XMLFILE             "Dream Map (*.dm)"
+    IDS_ZONE                "Зона"
+    IDS_ZONELIST            "Список зон"
+    IDS_ZONES               "Зоны"
+    IDS_ZONEEDIT            "Редактирование зоны"
+    IDS_DIRECTION           "Относительное положение"
+    IDS_NORTH               "Север"
+    IDS_SOUTH               "Юг"
+    IDS_EAST                "Восток"
+    IDS_WEST                "Запад"
+    IDS_SOUTH2              "Юго-"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_DELETE              "Удалить сон\nУдалить сон"
+    ID_BUTTONSAVE           "Запомнить\nЗапомнить"
+    ID_BUTTONCANCEL         "Отменить ввод\nОтменить ввод"
+    ID_BUTTONNEW            "Новый сон\\Новый сон"
+    ID_BUTTONFIRST          "Первый сон\nПервый сон"
+    ID_BUTTONPREV           "Предыдущий сон\nПредыдущий сон"
+    ID_BUTTONNEXT           "Следующий сон\nСледующий сон"
+    ID_BUTTONLAST           "Последний сон\nПоследний сон"
+    ID_BUTTONDELETE         "Удалить сон\nУдалить сон"
+    IDM_NEW                 "Описать новый сон\nНовый сон"
+    IDM_DVIEW               "Показать описание сна\nПоказать сон"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_BIGICONS            "Крупные значки на панелях инструментов"
+    IDM_NEWZONE             "Создать новую зону...\nНовая зона"
+    IDM_ZONEEDITR           "Режим нанесения зон на карту: левая кнопка - назначить зону, правая - убрать зону\nНанесение зо на карту"
+    IDM_GRIDONOFF           "Показать/спрятать сетку\nПоказать/спрятать сетку"
+    IDM_NEWPLACE            "Создать новый шар восприятия...\nНовый шар восприятия"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDM_ZOOMIN              "Увеличить масштаб карты\nУвеличить масштаб"
+    IDM_ZOOMOUT             "Уменьшить масштаб карты\nУменьшить масштаб"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NORTH2              "Северо-"
+    IDS_CENTER              "Центр"
+    IDS_LAYER_1             "нижний мир"
+    IDS_LAYER00             "нулевой уровень"
+    IDS_LAYER01             "верхний мир"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDI_OTHERTYPES          BITMAP  DISCARDABLE     "res\\Max2\\usual_dream_f.BMP"
+IDI_LOOP                BITMAP  DISCARDABLE     "res\\Max2\\bred_dream_f.BMP"
+IDI_SPEAK               BITMAP  DISCARDABLE     "res\\Max2\\chat_dream_f.BMP"
+IDI_LUCID               BITMAP  DISCARDABLE     "res\\Max2\\lucid_dream_f.BMP"
+IDI_CONSCIOUS           BITMAP  DISCARDABLE     "res\\Max2\\con_dream_f.BMP"
+IDB_MAPTOOLBAR256       BITMAP  DISCARDABLE     "res\\maptoolb256.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DMJournal.ico"
+IDR_DMJOURTYPE          ICON    DISCARDABLE     "res\\DMJournalDoc.ico"
+IDI_NEW                 ICON    DISCARDABLE     "res\\newplace.ico"
+IDI_DEL                 ICON    DISCARDABLE     "res\\delplace.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)"
+    "#ifdef _WIN32"
+    "LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT"
+    "#pragma code_page(1251)"
+    "#endif //_WIN32"
+    "#include ""res\\DMJournal.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "+",            IDM_ZOOMIN,             ASCII,  NOINVERT
+    "-",            IDM_ZOOMOUT,            ASCII,  NOINVERT
+    "=",            IDM_ZOOMIN,             ASCII,  NOINVERT
+    "B",            IDM_NEWPLACE,           VIRTKEY, NOINVERT
+    "G",            IDM_GRIDONOFF,          VIRTKEY, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_ADD,         IDM_ZOOMIN,             VIRTKEY, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_RETURN,      IDM_NEW,                VIRTKEY, NOINVERT
+    VK_SUBTRACT,    IDM_ZOOMOUT,            VIRTKEY, NOINVERT
+    VK_TAB,         IDM_TAB,                VIRTKEY, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            IDM_NEWZONE,            VIRTKEY, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,60
+ PRODUCTVERSION 1,0,0,60
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "TDG Software\0"
+            VALUE "FileDescription", "First Gate\0"
+            VALUE "FileVersion", "1, 0, 0, 60\0"
+            VALUE "InternalName", "FirstGate\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "TDG software\0"
+            VALUE "OriginalFilename", "FirstGate.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "First Gate\0"
+            VALUE "ProductVersion", "1, 0, 0, 60\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+#include "res\DMJournal.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

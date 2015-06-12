@@ -1,0 +1,1770 @@
+# Microsoft eMbedded Visual Tools Project File - Name="DMlib" - Package Owner=<4>
+# Microsoft eMbedded Visual Tools Generated Build File, Format Version 6.02
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (WCE MIPS) Static Library" 0x8204
+# TARGTYPE "Win32 (WCE x86em) Static Library" 0x7f04
+# TARGTYPE "Win32 (WCE ARM) Static Library" 0x8504
+# TARGTYPE "Win32 (WCE SH3) Static Library" 0x8104
+
+CFG=DMlib - Win32 (WCE MIPS) Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "DMlib.vcn".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "DMlib.vcn" CFG="DMlib - Win32 (WCE MIPS) Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "DMlib - Win32 (WCE MIPS) Release" (based on "Win32 (WCE MIPS) Static Library")
+!MESSAGE "DMlib - Win32 (WCE MIPS) Debug" (based on "Win32 (WCE MIPS) Static Library")
+!MESSAGE "DMlib - Win32 (WCE SH3) Release" (based on "Win32 (WCE SH3) Static Library")
+!MESSAGE "DMlib - Win32 (WCE SH3) Debug" (based on "Win32 (WCE SH3) Static Library")
+!MESSAGE "DMlib - Win32 (WCE ARM) Release" (based on "Win32 (WCE ARM) Static Library")
+!MESSAGE "DMlib - Win32 (WCE ARM) Debug" (based on "Win32 (WCE ARM) Static Library")
+!MESSAGE "DMlib - Win32 (WCE x86em) Release" (based on "Win32 (WCE x86em) Static Library")
+!MESSAGE "DMlib - Win32 (WCE x86em) Debug" (based on "Win32 (WCE x86em) Static Library")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+# PROP ATL_Project 2
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSRel"
+# PROP BASE Intermediate_Dir "MIPSRel"
+# PROP BASE CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "..\..\BIN_PPC\MIPSRel"
+# PROP Intermediate_Dir "..\..\BIN_PPC\MIPSRel\DMlib"
+# PROP CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_AFXDLL" /YX /Oxs /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /O2 /D "MIPS" /D "_MIPS_" /D "NDEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /D "_MFC_VER" /Oxs /M$(CECrtMT) /c
+# SUBTRACT CPP /YX
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSDbg"
+# PROP BASE Intermediate_Dir "MIPSDbg"
+# PROP BASE CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "..\..\BIN_PPC\MIPSDbg"
+# PROP Intermediate_Dir "..\..\BIN_PPC\MIPSDbg\DMlib"
+# PROP CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "_MFC_VER" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /M$(CECrtMTDebug) /c
+# SUBTRACT CPP /YX
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "SH3Rel"
+# PROP BASE Intermediate_Dir "SH3Rel"
+# PROP BASE CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "..\..\BIN_PPC\SH3Rel"
+# PROP Intermediate_Dir "..\..\BIN_PPC\SH3Rel\DMlib"
+# PROP CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_AFXDLL" /YX /Oxs /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D "SHx" /D "SH3" /D "_SH3_" /D "NDEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /D "_MFC_VER" /Oxs /M$(CECrtMT) /c
+# SUBTRACT CPP /YX
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "SH3Dbg"
+# PROP BASE Intermediate_Dir "SH3Dbg"
+# PROP BASE CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "..\..\BIN_PPC\SH3Dbg"
+# PROP Intermediate_Dir "..\..\BIN_PPC\SH3Dbg\DMlib"
+# PROP CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "SHx" /D "SH3" /D "_SH3_" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /D "_MFC_VER" /M$(CECrtMTDebug) /c
+# SUBTRACT CPP /YX
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMRel"
+# PROP BASE Intermediate_Dir "ARMRel"
+# PROP BASE CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "..\..\BIN_PPC\ARMRel"
+# PROP Intermediate_Dir "..\..\BIN_PPC\ARMRel\DMlib"
+# PROP CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "NDEBUG" /D "ARM" /D "_ARM_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /YX /Oxs /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /D "NDEBUG" /D "ARM" /D "_ARM_" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /D "_MFC_VER" /Oxs /M$(CECrtMT) /c
+# SUBTRACT CPP /YX
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMDbg"
+# PROP BASE Intermediate_Dir "ARMDbg"
+# PROP BASE CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "..\..\BIN_PPC\ARMDbg"
+# PROP Intermediate_Dir "..\..\BIN_PPC\ARMDbg\DMlib"
+# PROP CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "ARM" /D "_ARM_" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /D "_MFC_VER" /M$(CECrtMTDebug) /c
+# SUBTRACT CPP /YX
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "X86EMRel"
+# PROP BASE Intermediate_Dir "X86EMRel"
+# PROP BASE CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "..\..\BIN_PPC\X86EMRel"
+# PROP Intermediate_Dir "..\..\BIN_PPC\X86EMRel\DMlib"
+# PROP CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "$(CePlatform)" /D "i486" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /D "_AFXDLL" /YX /Oxs /Gz /c
+# ADD CPP /nologo /W3 /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "i486" /D "_X86_" /D "x86" /D "NDEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /D "_MFC_VER" /FR /Oxs /Gz /c
+# SUBTRACT CPP /YX
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+# PROP BASE Use_MFC 2
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "X86EMDbg"
+# PROP BASE Intermediate_Dir "X86EMDbg"
+# PROP BASE CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 2
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "..\..\BIN_PPC\X86EMDbg"
+# PROP Intermediate_Dir "..\..\BIN_PPC\X86EMDbg\DMlib"
+# PROP CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "$(CePlatform)" /D "i486" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "_AFXDLL" /YX /Gz /c
+# ADD CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "i486" /D "_X86_" /D "x86" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_AFXDLL" /D "_MFC_VER" /YX /Gz /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ENDIF 
+
+# Begin Target
+
+# Name "DMlib - Win32 (WCE MIPS) Release"
+# Name "DMlib - Win32 (WCE MIPS) Debug"
+# Name "DMlib - Win32 (WCE SH3) Release"
+# Name "DMlib - Win32 (WCE SH3) Debug"
+# Name "DMlib - Win32 (WCE ARM) Release"
+# Name "DMlib - Win32 (WCE ARM) Debug"
+# Name "DMlib - Win32 (WCE x86em) Release"
+# Name "DMlib - Win32 (WCE x86em) Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMDescription.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DMDES=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMMapLayer.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DMMAP=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMPlace.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DMPLA=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMPlaceList.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DMPLAC=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMPlaceListV.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DMPLACE=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMxml.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DMXML=\
+	"..\..\DMlib\DMxml.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMZones.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DMZON=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DreamJournal.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DREAM=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMMapLayer.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DMZones.h"\
+	"..\..\DMlib\DreamJournal.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DreamRecord.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_DREAMR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\ExpatXMLParser.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_EXPAT=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMPlace.h"\
+	"..\..\DMlib\DMPlaceList.h"\
+	"..\..\DMlib\DMPlaceListV.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\DreamRecord.h"\
+	"..\..\DMlib\ExpatXMLParser.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\Unicode.h"\
+	"..\..\expat\expat.h"\
+	"..\..\expat\winconfig.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\ownerinfo.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_OWNER=\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\Unicode.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_UNICO=\
+	"..\..\DMlib\Unicode.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\XMLWriter.cpp
+
+!IF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Release"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Release"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE SH3) Debug"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Release"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE ARM) Debug"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Release"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ELSEIF  "$(CFG)" == "DMlib - Win32 (WCE x86em) Debug"
+
+DEP_CPP_XMLWR=\
+	"..\..\DMlib\DMDescription.h"\
+	"..\..\DMlib\DMxml.h"\
+	"..\..\DMlib\IDreamList.h"\
+	"..\..\DMlib\IDreamRecord.h"\
+	"..\..\DMlib\IDreams.h"\
+	"..\..\DMlib\IMapLayer.h"\
+	"..\..\DMlib\IPlace.h"\
+	"..\..\DMlib\IPlaceList.h"\
+	"..\..\DMlib\IZoneList.h"\
+	"..\..\DMlib\ownerinfo.h"\
+	"..\..\DMlib\XMLWriter.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMDescription.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMMapLayer.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMPlace.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMPlaceList.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMPlaceListV.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMxml.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DMZones.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DreamJournal.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\DreamRecord.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\ExpatXMLParser.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\IDreamRecord.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\IDreams.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\IMapLayer.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\IPlace.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\IPlaceList.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\IZoneList.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\ownerinfo.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\Unicode.h
+# End Source File
+# Begin Source File
+
+SOURCE=..\..\DMlib\XMLWriter.h
+# End Source File
+# End Group
+# End Target
+# End Project

@@ -1,0 +1,1570 @@
+# eMbedded Visual C++ Dependency File, included by PocketDM.vcn
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMDescriptionPage1.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMDreamEdit2.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMDreamPage.cpp : \
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMPlace.h"\
+	"..\DMlib\DMPlaceList.h"\
+	"..\DMlib\DMPlaceListV.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\ExpatXMLParser.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMlib\Unicode.h"\
+	"..\DMlib\XMLWriter.h"\
+	"..\DMMessages.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\ExpatXMLParser.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMlib\Unicode.h"\
+	"..\DMlib\XMLWriter.h"\
+	"..\DMMessages.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\ExpatXMLParser.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMlib\Unicode.h"\
+	"..\DMlib\XMLWriter.h"\
+	"..\DMMessages.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMJournalDoc.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMPlace.h"\
+	"..\DMlib\DMPlaceList.h"\
+	"..\DMlib\DMPlaceListV.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\ExpatXMLParser.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMlib\Unicode.h"\
+	"..\DMlib\XMLWriter.h"\
+	"..\DMMessages.h"\
+	"..\expat\expat.h"\
+	"..\expat\winconfig.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMJournalListView.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMPlace.h"\
+	"..\DMlib\DMPlaceList.h"\
+	"..\DMlib\DMPlaceListV.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMJournalListView.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMJournalListView.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMJournalListView.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMJournalListView.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMJournalListView.cpp : \
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMJournalListView.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMJournalListView.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournal.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMPlace.h"\
+	"..\DMlib\DMPlaceList.h"\
+	"..\DMlib\DMPlaceListV.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMPlaceEdit.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMPlaceListCtrl.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMPlaceListPage.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceEdit.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	".\CDQLIB\CDQ.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+..\DMPlacePage.cpp : \
+	"..\DMJournal.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMMessages.h"\
+	"..\DMPlacePage.h"\
+	"..\MainFrm.h"\
+	"..\stdafx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+.\MainFrm.cpp : \
+	"..\DMMessages.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+.\MainFrm.cpp : \
+	"..\DMMessages.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+.\MainFrm.cpp : \
+	"..\DMMessages.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+.\MainFrm.cpp : \
+	"..\DMMessages.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+.\PocketDM.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMPlace.h"\
+	"..\DMlib\DMPlaceList.h"\
+	"..\DMlib\DMPlaceListV.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+.\PocketDM.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+.\PocketDM.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+.\PocketDM.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+.\PocketDM.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+.\PocketDM.cpp : \
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+.\PocketDM.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+.\PocketDM.cpp : \
+	"..\DMDescriptionPage1.h"\
+	"..\DMDreamBar.h"\
+	"..\DMDreamEdit2.h"\
+	"..\DMDreamPage.h"\
+	"..\DMJournalDoc.h"\
+	"..\DMJournalListView.h"\
+	"..\DMlib\DMDescription.h"\
+	"..\DMlib\DMPlace.h"\
+	"..\DMlib\DMPlaceList.h"\
+	"..\DMlib\DMPlaceListV.h"\
+	"..\DMlib\DMxml.h"\
+	"..\DMlib\DreamJournal.h"\
+	"..\DMlib\DreamRecord.h"\
+	"..\DMlib\IDreamRecord.h"\
+	"..\DMlib\IDreams.h"\
+	"..\DMlib\IPlace.h"\
+	"..\DMlib\IPlaceList.h"\
+	"..\DMlib\ownerinfo.h"\
+	"..\DMMessages.h"\
+	"..\DMPlaceListCtrl.h"\
+	"..\DMPlaceListPage.h"\
+	".\MainFrm.h"\
+	".\PocketDM.h"\
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+.\PocketDM.rc : \
+	".\newres.h"\
+	".\res\add.ico"\
+	".\res\Cmdbar.bmp"\
+	".\res\del.ico"\
+	".\res\DreamToolBar.bmp"\
+	".\res\new.ico"\
+	".\res\placetoo.bmp"\
+	".\res\PocketDM.ico"\
+	".\res\PocketDM.rc2"\
+	{$(INCLUDE)}"wceres.rc"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Release"
+
+.\StdAfx.cpp : \
+	"..\DMMessages.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE MIPS) Debug"
+
+.\StdAfx.cpp : \
+	"..\DMMessages.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE SH3) Debug"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Release"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE ARM) Debug"
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Release"
+
+.\StdAfx.cpp : \
+	"..\DMMessages.h"\
+	".\StdAfx.h"\
+	
+
+!ELSEIF  "$(CFG)" == "PocketDM - Win32 (WCE x86em) Debug"
+
+.\StdAfx.cpp : \
+	"..\DMMessages.h"\
+	".\StdAfx.h"\
+	
+
+!ENDIF 
+

@@ -1,0 +1,250 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DMlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP886.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"..\BIN\Release\DMlib/DMlib.pch" /YX /Fo"..\BIN\Release\DMlib/" /Fd"..\BIN\Release\DMlib/" /FD /c 
+"D:\Work\Private\DM\DMlib\DMDescription.cpp"
+"D:\Work\Private\DM\DMlib\DMMapLayer.cpp"
+"D:\Work\Private\DM\DMlib\DMPlace.cpp"
+"D:\Work\Private\DM\DMlib\DMPlaceList.cpp"
+"D:\Work\Private\DM\DMlib\DMPlaceListV.cpp"
+"D:\Work\Private\DM\DMlib\DMxml.cpp"
+"D:\Work\Private\DM\DMlib\DMZones.cpp"
+"D:\Work\Private\DM\DMlib\DreamJournal.cpp"
+"D:\Work\Private\DM\DMlib\DreamRecord.cpp"
+"D:\Work\Private\DM\DMlib\ExpatXMLParser.cpp"
+"D:\Work\Private\DM\DMlib\ownerinfo.cpp"
+"D:\Work\Private\DM\DMlib\Unicode.cpp"
+"D:\Work\Private\DM\DMlib\XMLWriter.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP886.tmp" 
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP887.tmp" with contents
+[
+/nologo /out:"..\BIN\Release\DMlib.lib" 
+\Work\Private\DM\BIN\Release\DMlib\DMDescription.obj
+\Work\Private\DM\BIN\Release\DMlib\DMMapLayer.obj
+\Work\Private\DM\BIN\Release\DMlib\DMPlace.obj
+\Work\Private\DM\BIN\Release\DMlib\DMPlaceList.obj
+\Work\Private\DM\BIN\Release\DMlib\DMPlaceListV.obj
+\Work\Private\DM\BIN\Release\DMlib\DMxml.obj
+\Work\Private\DM\BIN\Release\DMlib\DMZones.obj
+\Work\Private\DM\BIN\Release\DMlib\DreamJournal.obj
+\Work\Private\DM\BIN\Release\DMlib\DreamRecord.obj
+\Work\Private\DM\BIN\Release\DMlib\ExpatXMLParser.obj
+\Work\Private\DM\BIN\Release\DMlib\ownerinfo.obj
+\Work\Private\DM\BIN\Release\DMlib\Unicode.obj
+\Work\Private\DM\BIN\Release\DMlib\XMLWriter.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP887.tmp"
+<h3>Output Window</h3>
+Compiling...
+DMDescription.cpp
+DMMapLayer.cpp
+DMPlace.cpp
+DMPlaceList.cpp
+DMPlaceListV.cpp
+DMxml.cpp
+DMZones.cpp
+DreamJournal.cpp
+DreamRecord.cpp
+ExpatXMLParser.cpp
+ownerinfo.cpp
+Unicode.cpp
+XMLWriter.cpp
+Creating library...
+<h3>
+--------------------Configuration: expat - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP889.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\BIN\Release\Expat/expat.pch" /YX /Fo"..\BIN\Release\Expat/" /Fd"..\BIN\Release\Expat/" /FD /c 
+"D:\Work\Private\DM\expat\xmlparse.c"
+"D:\Work\Private\DM\expat\xmlrole.c"
+"D:\Work\Private\DM\expat\xmltok.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP889.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\BIN\Release\expat.lib"  \Work\Private\DM\BIN\Release\Expat\xmlparse.obj \Work\Private\DM\BIN\Release\Expat\xmlrole.obj \Work\Private\DM\BIN\Release\Expat\xmltok.obj "
+<h3>Output Window</h3>
+Compiling...
+xmlparse.c
+xmlrole.c
+xmltok.c
+Creating library...
+<h3>
+--------------------Configuration: Zlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "_AFXDLL" /Fp"..\BIN\Release\Zlib/Zlib.pch" /YX /Fo"..\BIN\Release\Zlib/" /Fd"..\BIN\Release\Zlib/" /FD /c 
+"D:\Work\Private\DM\Zlib\adler32.c"
+"D:\Work\Private\DM\Zlib\compress.c"
+"D:\Work\Private\DM\Zlib\crc32.c"
+"D:\Work\Private\DM\Zlib\deflate.c"
+"D:\Work\Private\DM\Zlib\gzio.c"
+"D:\Work\Private\DM\Zlib\infblock.c"
+"D:\Work\Private\DM\Zlib\infcodes.c"
+"D:\Work\Private\DM\Zlib\inffast.c"
+"D:\Work\Private\DM\Zlib\inflate.c"
+"D:\Work\Private\DM\Zlib\inftrees.c"
+"D:\Work\Private\DM\Zlib\infutil.c"
+"D:\Work\Private\DM\Zlib\trees.c"
+"D:\Work\Private\DM\Zlib\uncompr.c"
+"D:\Work\Private\DM\Zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88B.tmp" 
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88C.tmp" with contents
+[
+/nologo /out:"..\BIN\Release\Zlib.lib" 
+\Work\Private\DM\BIN\Release\Zlib\adler32.obj
+\Work\Private\DM\BIN\Release\Zlib\compress.obj
+\Work\Private\DM\BIN\Release\Zlib\crc32.obj
+\Work\Private\DM\BIN\Release\Zlib\deflate.obj
+\Work\Private\DM\BIN\Release\Zlib\gzio.obj
+\Work\Private\DM\BIN\Release\Zlib\infblock.obj
+\Work\Private\DM\BIN\Release\Zlib\infcodes.obj
+\Work\Private\DM\BIN\Release\Zlib\inffast.obj
+\Work\Private\DM\BIN\Release\Zlib\inflate.obj
+\Work\Private\DM\BIN\Release\Zlib\inftrees.obj
+\Work\Private\DM\BIN\Release\Zlib\infutil.obj
+\Work\Private\DM\BIN\Release\Zlib\trees.obj
+\Work\Private\DM\BIN\Release\Zlib\uncompr.obj
+\Work\Private\DM\BIN\Release\Zlib\zutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88C.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+<h3>
+--------------------Configuration: DMJournal - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"BIN\Release\Journal/DMJournal.res" /d "NDEBUG" /d "_AFXDLL" "D:\Work\Private\DM\DMJournal.rc"" 
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"BIN\Release\Journal/DMJournal.pch" /Yu"stdafx.h" /Fo"BIN\Release\Journal/" /Fd"BIN\Release\Journal/" /FD /c 
+"D:\Work\Private\DM\Cell.cpp"
+"D:\Work\Private\DM\DMDescriptionPage1.cpp"
+"D:\Work\Private\DM\DMDreamBar.cpp"
+"D:\Work\Private\DM\DMDreamEdit.cpp"
+"D:\Work\Private\DM\DMDreamEdit2.cpp"
+"D:\Work\Private\DM\DMDreamPage.cpp"
+"D:\Work\Private\DM\DMJournal.cpp"
+"D:\Work\Private\DM\DMJournalDoc.cpp"
+"D:\Work\Private\DM\DMJournalListView.cpp"
+"D:\Work\Private\DM\DMJournalView.cpp"
+"D:\Work\Private\DM\DMMapView.cpp"
+"D:\Work\Private\DM\DMPlaceEdit.cpp"
+"D:\Work\Private\DM\DMPlaceListBox.cpp"
+"D:\Work\Private\DM\DMPlaceListCtrl.cpp"
+"D:\Work\Private\DM\DMPlaceListPage.cpp"
+"D:\Work\Private\DM\DMPlaceListSm.cpp"
+"D:\Work\Private\DM\DMPlacePage.cpp"
+"D:\Work\Private\DM\LayerBar.cpp"
+"D:\Work\Private\DM\MainFrm.cpp"
+"D:\Work\Private\DM\MapLayer.cpp"
+"D:\Work\Private\DM\Sphere.cpp"
+"D:\Work\Private\DM\Splash.cpp"
+"D:\Work\Private\DM\ZoneEdit.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88E.tmp" 
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"BIN\Release\Journal/DMJournal.pch" /Yc"stdafx.h" /Fo"BIN\Release\Journal/" /Fd"BIN\Release\Journal/" /FD /c 
+"D:\Work\Private\DM\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP88F.tmp" 
+Creating temporary file "C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP890.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"BIN\Release/FirstGate.pdb" /machine:I386 /out:"BIN\Release\FirstGate.exe" /libpath:"Release" 
+.\BIN\Release\Journal\Cell.obj
+.\BIN\Release\Journal\DMDescriptionPage1.obj
+.\BIN\Release\Journal\DMDreamBar.obj
+.\BIN\Release\Journal\DMDreamEdit.obj
+.\BIN\Release\Journal\DMDreamEdit2.obj
+.\BIN\Release\Journal\DMDreamPage.obj
+.\BIN\Release\Journal\DMJournal.obj
+.\BIN\Release\Journal\DMJournalDoc.obj
+.\BIN\Release\Journal\DMJournalListView.obj
+.\BIN\Release\Journal\DMJournalView.obj
+.\BIN\Release\Journal\DMMapView.obj
+.\BIN\Release\Journal\DMPlaceEdit.obj
+.\BIN\Release\Journal\DMPlaceListBox.obj
+.\BIN\Release\Journal\DMPlaceListCtrl.obj
+.\BIN\Release\Journal\DMPlaceListPage.obj
+.\BIN\Release\Journal\DMPlaceListSm.obj
+.\BIN\Release\Journal\DMPlacePage.obj
+.\BIN\Release\Journal\LayerBar.obj
+.\BIN\Release\Journal\MainFrm.obj
+.\BIN\Release\Journal\MapLayer.obj
+.\BIN\Release\Journal\Sphere.obj
+.\BIN\Release\Journal\Splash.obj
+.\BIN\Release\Journal\StdAfx.obj
+.\BIN\Release\Journal\ZoneEdit.obj
+.\BIN\Release\Journal\DMJournal.res
+.\BIN\Release\DMlib.lib
+.\BIN\Release\expat.lib
+.\BIN\Release\Zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\TDG\LOCALS~1\Temp\RSP890.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Cell.cpp
+DMDescriptionPage1.cpp
+DMDreamBar.cpp
+DMDreamEdit.cpp
+DMDreamEdit2.cpp
+DMDreamPage.cpp
+DMJournal.cpp
+DMJournalDoc.cpp
+DMJournalListView.cpp
+DMJournalView.cpp
+DMMapView.cpp
+DMPlaceEdit.cpp
+DMPlaceListBox.cpp
+DMPlaceListCtrl.cpp
+DMPlaceListPage.cpp
+DMPlaceListSm.cpp
+DMPlacePage.cpp
+LayerBar.cpp
+MainFrm.cpp
+MapLayer.cpp
+Generating Code...
+Compiling...
+Sphere.cpp
+Splash.cpp
+ZoneEdit.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FirstGate.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

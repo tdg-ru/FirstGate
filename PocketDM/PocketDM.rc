@@ -1,0 +1,560 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Romanian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ROM)
+#ifdef _WIN32
+LANGUAGE LANG_ROMANIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DESCRIPTION DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    EDITTEXT        IDC_DESCRIPTION,0,0,185,94,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+#endif    // Romanian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DREAM DIALOG DISCARDABLE  0, 0, 161, 45
+STYLE WS_CHILD
+FONT 8, "System"
+BEGIN
+    LTEXT           "Заголовок",IDC_CAPT,0,3,38,8
+    LTEXT           "Тип",IDC_STATIC,0,16,20,8
+    LTEXT           "Дата",IDC_STATIC,0,31,18,8
+    EDITTEXT        IDC_TITLE,38,1,122,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_TYPE,38,16,122,60,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "DateTimePicker1",IDC_DATE,"SysDateTimePick32",
+                    WS_TABSTOP,38,30,123,14
+END
+
+IDD_DREAMBAR DIALOG DISCARDABLE  0, 0, 150, 24
+STYLE WS_POPUP
+FONT 8, "System"
+BEGIN
+    DEFPUSHBUTTON   "Сохранить",IDC_SAVE,0,0,50,14
+    PUSHBUTTON      "Отменить",IDC_CANCEL,50,0,50,14
+    PUSHBUTTON      "Новый сон",IDC_NEW,100,0,50,14
+    PUSHBUTTON      "<<",IDC_FIRST,0,14,36,10
+    PUSHBUTTON      "<",IDC_PREV,38,14,36,10
+    PUSHBUTTON      ">",IDC_NEXT,76,14,36,10
+    PUSHBUTTON      ">>",IDC_LAST,113,14,36,10
+END
+
+IDD_PLACELIST DIALOG DISCARDABLE  0, 0, 228, 95
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | LVS_OWNERDATA | 
+                    WS_BORDER | WS_TABSTOP,0,0,126,80
+    CONTROL         "Добавить",IDC_ADD,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,74,82,32,13
+    CONTROL         "Удалить",IDC_DELETE,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,107,82,32,13
+    COMBOBOX        IDC_GLOBALLIST,0,82,73,50,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | CBS_NOINTEGRALHEIGHT | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Новый...",IDC_NEW,"Button",BS_OWNERDRAW | BS_ICON | 
+                    BS_NOTIFY | WS_TABSTOP,141,82,32,13
+END
+
+IDD_PLACEEDIT DIALOG DISCARDABLE  0, 0, 161, 40
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Название:",IDC_TITLETEXT,0,7,35,8
+    EDITTEXT        IDC_TITLE,37,4,124,14,ES_AUTOHSCROLL
+    CONTROL         "Color",IDC_COLOR,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,37,21,41,14
+    LTEXT           "Цвет:",IDC_STATIC,0,24,20,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PocketDM.rc2""  // non-Microsoft eMbedded Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""wceres.rc""         // WCE-specific components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menubar
+//
+
+IDR_DMLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "..."
+    BEGIN
+        MENUITEM "Показать...",                 IDM_DVIEW
+        MENUITEM "Новый...",                    IDM_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Удалить сон",                 IDM_DELETE
+    END
+END
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Журнал"
+    BEGIN
+        MENUITEM "Новый\tCtrl+N",               ID_FILE_NEW
+        MENUITEM "Открыть...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Сохранить\tCtrl+S",          ID_FILE_SAVE
+        MENUITEM "Сохранить как...",            ID_FILE_SAVE_AS
+        MENUITEM "Экспорт в XML...",            IDM_SAVEXML
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Выход",                       ID_APP_EXIT
+    END
+    POPUP "Сон"
+    BEGIN
+        MENUITEM "Новый...",                    IDM_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "Удалить",                     IDM_DELETE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_DMLIST SHMENUBAR DISCARDABLE 
+BEGIN
+    IDR_DMLIST, 1,
+    I_IMAGENONE, ID_MENUITEM32771, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDM_DELETE, 0, 0,
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DREAM DLGINIT
+BEGIN
+    IDC_TYPE, 0x403, 30, 0
+0x0431, 0x0440, 0x0435, 0x0434, 0x043e, 0x0432, 0x0430, 0x044f, 0x0020, 
+0x043f, 0x0435, 0x0442, 0x043b, 0x044f, 0x0000, 
+    IDC_TYPE, 0x403, 32, 0
+0x0031, 0x0030, 0x0030, 0x0025, 0x002d, 0x044f, 0x0020, 0x0431, 0x043e, 
+0x043b, 0x0442, 0x043e, 0x0432, 0x043d, 0x044f, 0x0000, 
+    IDC_TYPE, 0x403, 52, 0
+0x0441, 0x043e, 0x043d, 0x0020, 0x0441, 0x0020, 0x044d, 0x043b, 0x0435, 
+0x043c, 0x0435, 0x043d, 0x0442, 0x0430, 0x043c, 0x0438, 0x0020, 0x0434, 
+0x0435, 0x0439, 0x0441, 0x0442, 0x0432, 0x0438, 0x044f, 0x0000, 
+    IDC_TYPE, 0x403, 44, 0
+0x043f, 0x0440, 0x043e, 0x0437, 0x0440, 0x0430, 0x0447, 0x043d, 0x043e, 
+0x0435, 0x0020, 0x0441, 0x043d, 0x043e, 0x0432, 0x0438, 0x0434, 0x0435, 
+0x043d, 0x0438, 0x0435, 0x0000, 
+    IDC_TYPE, 0x403, 6, 0
+0x041e, 0x0421, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XML
+//
+
+IDR_DEFAULTFILE         XML     DISCARDABLE     "..\\res\\default.dm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Первые Врата\n\nFG\nFirst Gate Files (*.fg)\n.fg\nFirst Gate.FG\nFirstGate"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Создать новый журнал сновидений\nНовый"
+    ID_FILE_OPEN            "Открыть журнал сновидений\nОткрыть"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Сохранить журнал сновидений\nСохранить"
+    ID_FILE_SAVE_AS         "Сохранить журнал под другим именем\nСохранить как"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Информация о программе\nО программе"
+    ID_APP_EXIT             "Закончить работу с программой и сохранить изменения\nВыход"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_MENUITEM32772   "Удалить сон"
+    IDM_NEW                 "Записать новый сон"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERROR0              "Ошибка"
+    IDS_ERROR1              "Невозможно сохранить изменения"
+    IDS_QUESTION1           "Запомнить изменения?"
+    IDS_DESCRIPTION         "Описание"
+    IDS_DATE                "Дата"
+    IDS_TITLE               "Заголовок"
+    IDS_DREAMEDIT           "Редактирование сна"
+    IDS_COMMENT             "Комментарии"
+    IDS_DREAM               "Сон"
+    IDS_QUESTION2           "Вы уверены?"
+    IDS_QUESTION3           "Удалить?"
+    IDS_PLACES              "Шары восриятия"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PLACE               "Шар восприятия"
+    IDS_PLACEEDIT           "Редактирование сна"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_CAPS       "CAP"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 125, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE 0x80000000L
+CAPTION "About PocketDM"
+FONT 8, "System"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "FirstGate Version 1.0",IDC_STATIC,34,17,84,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002",IDC_STATIC,34,28,84,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "..\\res\\DMJournal.ico"
+IDI_ADD                 ICON    DISCARDABLE     "..\\res\\Max\\addball.ico"
+IDR_DMJOURTYPE          ICON    DISCARDABLE     "..\\res\\DMJournalDoc.ico"
+IDI_NEW                 ICON    DISCARDABLE     "..\\res\\newplace.ico"
+IDI_DEL                 ICON    DISCARDABLE     "..\\res\\delplace.ico"
+IDI_ACTION              ICON    DISCARDABLE     "res\\action.ico"
+IDI_LOOP                ICON    DISCARDABLE     "res\\bread.ico"
+IDI_SPEAK               ICON    DISCARDABLE     "res\\chat.ico"
+IDI_CONSCIOUS           ICON    DISCARDABLE     "res\\cons.ico"
+IDI_LUCID               ICON    DISCARDABLE     "res\\lucid.ico"
+IDI_OTHERTYPES          ICON    DISCARDABLE     "res\\other_type.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Cmdbar.bmp"
+IDR_DREAMTOOLBAR        BITMAP  MOVEABLE PURE   "res\\DreamToolBar.bmp"
+IDR_PLACETOOLBAR        BITMAP  DISCARDABLE     "res\\placetoo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      IDM_NEW
+    BUTTON      IDM_DELETE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_DREAMTOOLBAR TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_BUTTONSAVE
+    BUTTON      ID_BUTTONCANCEL
+    SEPARATOR
+    BUTTON      ID_BUTTONNEW
+    BUTTON      ID_BUTTONDELETE
+    SEPARATOR
+    BUTTON      ID_BUTTONFIRST
+    BUTTON      ID_BUTTONPREV
+    BUTTON      ID_BUTTONNEXT
+    BUTTON      ID_BUTTONLAST
+END
+
+IDR_PLACETOOLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_BUTTONSAVE
+    BUTTON      IDCANCEL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PocketDM WCE MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PocketDM\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PocketDM.EXE\0"
+            VALUE "ProductName", "PocketDM Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\PocketDM.rc2"  // non-Microsoft eMbedded Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "wceres.rc"         // WCE-specific components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
