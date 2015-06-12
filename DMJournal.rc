@@ -382,7 +382,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ADD                 ICON    DISCARDABLE     "res\\Max\\addball.ico"
+//IDI_ADD                 ICON    DISCARDABLE     "res\\Max\\addball.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -588,11 +588,11 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 // Bitmap
 //
 
-IDI_OTHERTYPES          BITMAP  DISCARDABLE     "res\\Max2\\usual_dream_f.BMP"
-IDI_LOOP                BITMAP  DISCARDABLE     "res\\Max2\\bred_dream_f.BMP"
-IDI_SPEAK               BITMAP  DISCARDABLE     "res\\Max2\\chat_dream_f.BMP"
-IDI_LUCID               BITMAP  DISCARDABLE     "res\\Max2\\lucid_dream_f.BMP"
-IDI_CONSCIOUS           BITMAP  DISCARDABLE     "res\\Max2\\con_dream_f.BMP"
+IDI_OTHERTYPES          BITMAP  DISCARDABLE     "res\\usual_dream_f.BMP"
+IDI_LOOP                BITMAP  DISCARDABLE     "res\\bred_dream_f.BMP"
+IDI_SPEAK               BITMAP  DISCARDABLE     "res\\chat_dream_f.BMP"
+IDI_LUCID               BITMAP  DISCARDABLE     "res\\lucid_dream_f.BMP"
+IDI_CONSCIOUS           BITMAP  DISCARDABLE     "res\\con_dream_f.BMP"
 IDB_MAPTOOLBAR256       BITMAP  DISCARDABLE     "res\\maptoolb256.bmp"
 
 /////////////////////////////////////////////////////////////////////////////

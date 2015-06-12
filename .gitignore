@@ -1,0 +1,7 @@
+/BIN
+*.user
+*.pdb
+*~
+*.ncb
+*.suo
+

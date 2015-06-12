@@ -49,7 +49,7 @@ CString& DMxml::Quote(const CString &str, CString &rez)
 	}
 */
 	LPCTSTR buf = LPCTSTR(str);
-	LPTSTR pos;
+	LPCTSTR pos;
 	while((pos = _tcspbrk(buf + start, quotes_chrs)) != NULL)
 	{
 		int j;
@@ -123,7 +123,7 @@ CString& DMxml::QuoteP(const CString &str, CString &rez)
 		rez += quotes[5];
 */
 	LPCTSTR buf = LPCTSTR(str);
-	LPTSTR pos;
+	LPCTSTR pos;
 	while((pos = _tcspbrk(buf + start, quotesp_chrs)) != NULL)
 	{
 		int j;

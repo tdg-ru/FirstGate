@@ -74,7 +74,7 @@ int CDreamJournalImp::Add()
 void CDreamJournalImp::Delete(int id)
 {
 	if(id >= 0 && id < (signed)m_dreams.size())
-		m_dreams.erase(&m_dreams[id]);
+		m_dreams.erase(m_dreams.begin() + id);
 
 	int s = m_dreams.size();
 	if(!s)
